@@ -1,0 +1,199 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+    margin-bottom: 20px;
+}
+
+header a img {
+    margin-top: 15px;
+}
+
+.registerarea {
+    height: 523px;
+    border: 1px solid #ccc;
+}
+
+.registerarea h3 {
+    height: 41px;
+    line-height: 41px;
+    background-color: #ececec;
+    border-bottom: 1px solid #ccc;
+    padding: 0 15px;
+    font-size: 18px;
+    color: #333;
+    font-weight: 400;
+}
+
+.registerarea h3 span {
+    margin-left: 10px;
+    float: right;
+    font-size: 14px;
+    color: #333;
+
+}
+
+.registerarea h3 span a {
+    color: #c81623;
+}
+
+.reg-form {
+    width: 600px;
+    margin: 0 auto;
+    /* background-color: pink; */
+}
+
+.reg-form ul {
+    margin-top: 35px;
+}
+
+.reg-form ul li {
+    margin-top: 20px;
+}
+
+.reg-form ul li .inp {
+    width: 240px;
+    height: 36px;
+    border: 1px solid #999;
+
+}
+
+.reg-form ul li label {
+    display: inline-block;
+    width: 100px;
+    /* height: 35px;
+    line-height: 35px; */
+    background-color: #fff;
+    text-align: right;
+    font-size: 14px;
+    color: #4d4d4d;
+}
+
+.reg-form ul li span {
+    font-size: 12px;
+    color: #df3033;
+    float: none;
+}
+
+.reg-form ul li span i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/1.png);
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.reg-form ul .security {
+    font-size: 12px;
+    color: #b2b2b2;
+    margin-left: 155px;
+    margin-top: 0;
+
+}
+
+.reg-form ul .security .ruo {
+    margin-left: 10px;
+    padding: 0 12px;
+    background-color: #de1111;
+    color: #fff;
+}
+
+.reg-form ul .security .zhong {
+    padding: 0 12px;
+    background-color: #40b83f;
+    color: #fff;
+}
+
+.reg-form ul .security .qiang {
+    padding: 0 12px;
+    background-color: #f79100;
+    color: #fff;
+}
+
+.reg-form ul .agree {
+    position: relative;
+}
+
+.reg-form ul .agree .but {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 95px;
+    width: 16px;
+    height: 15px;
+    /* border: 1px solid #999;
+    vertical-align: middle; */
+    background: url(../upload/37.png) no-repeat;
+    margin-right: 10px;
+
+}
+
+.reg-form ul .email {
+    color: #333;
+    margin-left: 134px;
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.reg-form ul .email:hover {
+    color: #de1111;
+}
+
+.reg-form ul .agree {
+    margin-top: 0;
+}
+
+.reg-form ul .agree a {
+    display: inline-block;
+    color: #1ba1e6;
+    font-size: 12px;
+    margin-bottom: 5px;
+
+}
+
+
+.reg-form ul .agree i {
+    font-size: 12px;
+    margin-left: 120px;
+}
+
+.reg-form ul li .complete {
+    display: inline-block;
+    width: 200px;
+    height: 35px;
+    background-color: #c81623;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    margin-left: 100px;
+}
+
+.mod_copyright ul {
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+.mod_copyright ul li {
+    float: left;
+    /* width: 80px; */
+    border-right: 1px solid #ccc;
+}
+
+.mod_copyright ul li a {
+    padding: 0 15px;
+}
+
+.mod_copyright p {
+    margin-top: 15px;
+    margin-left: 232px;
+}
+
+.mod_copyright .jin {
+    margin-left: 467px;
+    margin-top: 5px;
+}

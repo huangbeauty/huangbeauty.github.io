@@ -1,0 +1,161 @@
+.sk {
+    width: 76px;
+    height: 35px;
+    line-height: 35px;
+    position: absolute;
+    top: 35px;
+    left: 190px;
+    border-left: 1px solid #c81523;
+
+}
+
+.sk_list {
+    float: left;
+    height: 46px;
+    line-height: 46px;
+    margin-right: 10px;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    padding: 0 30px;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+    height: 46px;
+    line-height: 49px;
+}
+
+.sk_con ul li a {
+    font-size: 14px;
+    padding: 0 22px;
+}
+
+.sk_con ul li:last-child::after {
+    content: '\e918';
+    font-family: 'icomoon';
+    position: absolute;
+    top: 1px;
+    right: 60px;
+    font-size: 14px;
+}
+
+.sk_bd {
+    margin-top: 25px;
+    overflow: hidden;
+
+}
+
+.sk_bd ul li {
+    float: left;
+    width: 292px;
+    height: 460px;
+    /* background-color: pink; */
+    margin-right: 10px;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li a {
+    display: block;
+    height: 285px;
+    width: 290px;
+    background-color: #fff;
+
+}
+
+.sk_bd ul li a img {
+    margin-left: 75px;
+    margin-top: 25px;
+}
+
+.sk_bd ul li p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px;
+}
+
+.sk_bd ul li span {
+    margin-left: 15px;
+    font-size: 22px;
+    color: #e60012;
+}
+
+.sk_bd ul li span i {
+    font-size: 14px;
+    color: #a4a4a4;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+
+.sk_bd ul li .sk_yi {
+    margin-top: 5px;
+    margin-left: 11px;
+    color: #666;
+    font-size: 14px;
+    width: 280px;
+    height: 21px;
+    line-height: 21px;
+
+}
+
+.sk_bd ul li .sk_yi span {
+    position: relative;
+    display: inline-block;
+    width: 134px;
+    height: 14px;
+    border: 1px solid #ed282e;
+    border-radius: 7px;
+    font-size: 12px;
+    margin: 0;
+    margin: 0 15px 0 10px;
+}
+
+.sk_bd ul li .sk_yi span i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    width: 115px;
+    height: 13px;
+    border-radius: 7px 0 0 7px;
+    background-color: #ed282e;
+    margin: 0;
+
+}
+
+.sk_bd ul li .sk_li .sk_a {
+    display: block;
+    height: 52px;
+    width: 291px;
+    background-color: #b1191a;
+    line-height: 52px;
+    text-align: center;
+}
+
+.sk_bd ul li .sk_li .sk_a h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #e12228;
+}
+
+.footer {
+    margin-top: 280px;
+}
